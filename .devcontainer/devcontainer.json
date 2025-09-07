@@ -1,0 +1,13 @@
+{
+  "name": "ecttu",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt && python -m ipykernel install --user --name ecttu --display-name 'Python (ecttu)'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}
